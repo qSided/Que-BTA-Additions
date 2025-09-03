@@ -271,6 +271,119 @@ public class QBTAARecipes implements RecipeEntrypoint { // don't forget to imple
 
 		RecipeBuilder.Shaped(MOD_ID)
 			.setShape(
+				"000",
+				"BBB",
+				"BBB")
+			.addInput('B', blackSG)
+			.create("black_stained_glass_trapdoor", new ItemStack(QBTAAItems.stained_glass_trapdoor, 6, 240));
+		RecipeBuilder.Shaped(MOD_ID)
+			.setShape(
+				"000",
+				"BBB",
+				"BBB")
+			.addInput('B', redSG)
+			.create("red_stained_glass_trapdoor", new ItemStack(QBTAAItems.stained_glass_trapdoor, 6, 224));
+		RecipeBuilder.Shaped(MOD_ID)
+			.setShape(
+				"000",
+				"BBB",
+				"BBB")
+			.addInput('B', greenSG)
+			.create("green_stained_glass_trapdoor", new ItemStack(QBTAAItems.stained_glass_trapdoor, 6, 208));
+		RecipeBuilder.Shaped(MOD_ID)
+			.setShape(
+				"000",
+				"BBB",
+				"BBB")
+			.addInput('B', brownSG)
+			.create("brown_stained_glass_trapdoor", new ItemStack(QBTAAItems.stained_glass_trapdoor, 6, 192));
+		RecipeBuilder.Shaped(MOD_ID)
+			.setShape(
+				"000",
+				"BBB",
+				"BBB")
+			.addInput('B', blueSG)
+			.create("blue_stained_glass_trapdoor", new ItemStack(QBTAAItems.stained_glass_trapdoor, 6, 176));
+		RecipeBuilder.Shaped(MOD_ID)
+			.setShape(
+				"000",
+				"BBB",
+				"BBB")
+			.addInput('B', purpleSG)
+			.create("purple_stained_glass_trapdoor", new ItemStack(QBTAAItems.stained_glass_trapdoor, 6, 160));
+		RecipeBuilder.Shaped(MOD_ID)
+			.setShape(
+				"000",
+				"BBB",
+				"BBB")
+			.addInput('B', cyanSG)
+			.create("cyan_stained_glass_trapdoor", new ItemStack(QBTAAItems.stained_glass_trapdoor, 6, 144));
+		RecipeBuilder.Shaped(MOD_ID)
+			.setShape(
+				"000",
+				"BBB",
+				"BBB")
+			.addInput('B', lGraySG)
+			.create("light_gray_stained_glass_trapdoor", new ItemStack(QBTAAItems.stained_glass_trapdoor, 6, 128));
+		RecipeBuilder.Shaped(MOD_ID)
+			.setShape(
+				"000",
+				"BBB",
+				"BBB")
+			.addInput('B', graySG)
+			.create("gray_stained_glass_trapdoor", new ItemStack(QBTAAItems.stained_glass_trapdoor, 6, 112));
+		RecipeBuilder.Shaped(MOD_ID)
+			.setShape(
+				"000",
+				"BBB",
+				"BBB")
+			.addInput('B', pinkSG)
+			.create("pink_stained_glass_trapdoor", new ItemStack(QBTAAItems.stained_glass_trapdoor, 6, 96));
+		RecipeBuilder.Shaped(MOD_ID)
+			.setShape(
+				"000",
+				"BBB",
+				"BBB")
+			.addInput('B', limeSG)
+			.create("lime_stained_glass_trapdoor", new ItemStack(QBTAAItems.stained_glass_trapdoor, 6, 80));
+		RecipeBuilder.Shaped(MOD_ID)
+			.setShape(
+				"000",
+				"BBB",
+				"BBB")
+			.addInput('B', yellowSG)
+			.create("yellow_stained_glass_trapdoor", new ItemStack(QBTAAItems.stained_glass_trapdoor, 6, 64));
+		RecipeBuilder.Shaped(MOD_ID)
+			.setShape(
+				"000",
+				"BBB",
+				"BBB")
+			.addInput('B', lBlueSG)
+			.create("light_blue_stained_glass_trapdoor", new ItemStack(QBTAAItems.stained_glass_trapdoor, 6, 48));
+		RecipeBuilder.Shaped(MOD_ID)
+			.setShape(
+				"000",
+				"BBB",
+				"BBB")
+			.addInput('B', magentaSG)
+			.create("magenta_stained_glass_trapdoor", new ItemStack(QBTAAItems.stained_glass_trapdoor, 6, 32));
+		RecipeBuilder.Shaped(MOD_ID)
+			.setShape(
+				"000",
+				"BBB",
+				"BBB")
+			.addInput('B', orangeSG)
+			.create("orange_stained_glass_trapdoor", new ItemStack(QBTAAItems.stained_glass_trapdoor, 6, 16));
+		RecipeBuilder.Shaped(MOD_ID)
+			.setShape(
+				"000",
+				"BBB",
+				"BBB")
+			.addInput('B', whiteSG)
+			.create("white_stained_glass_trapdoor", new ItemStack(QBTAAItems.stained_glass_trapdoor, 6, 0));
+
+		RecipeBuilder.Shaped(MOD_ID)
+			.setShape(
 				"0BB",
 				"0BB",
 				"0BB")
