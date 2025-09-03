@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "tutorialmod",
+  "id": "qbtaa",
   "version": "${version}",
 
-  "name": "Tutorial Mod",
-  "description": "A Tutorial Mod",
+  "name": "Que's BTA Additions",
+  "description": "A mod for stained glass and possibly other things in BTA. Huge thanks to camoweed_ for the beautiful glass textures.",
   "authors": [
-    "Deive The Dev"
+    "qSided",
+		"camoweed_"
   ],
   "contact": {
     "homepage": "",
@@ -19,26 +20,26 @@
   "environment": "*",
   "entrypoints": {
 		"main": [
-			"deivethedev.tutorialmod.TutorialMod"
+			"qsided.qbtaa.QBTAAMod"
 		],
 		"beforeGameStart": [
-			"deivethedev.tutorialmod.TutorialMod"
+			"qsided.qbtaa.QBTAAMod"
 		],
 		"afterGameStart": [
-			"deivethedev.tutorialmod.TutorialMod"
+			"qsided.qbtaa.QBTAAMod"
 		],
 		"recipesReady": [
-			"deivethedev.tutorialmod.TutorialRecipes"
+			"qsided.qbtaa.QBTAARecipes"
 		],
 		"initModels": [
-			"deivethedev.tutorialmod.TutorialModels"
+			"qsided.qbtaa.QBTAAModels"
 		],
 		"onInitialize": [
-			"deivethedev.tutorialmod.TutorialMod"
+			"qsided.qbtaa.QBTAAMod"
 		]
 	},
   "mixins": [
-      "tutorialmod.mixins.json"
+		"qbtaa.mixins.json"
   ],
 
   "depends": {

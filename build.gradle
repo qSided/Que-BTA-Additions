@@ -5,7 +5,7 @@ plugins {
 
 import org.gradle.internal.os.OperatingSystem
 
-project.ext.lwjglVersion = "3.3.4"
+project.ext.lwjglVersion = "3.3.3"
 
 switch (OperatingSystem.current()) {
 	case OperatingSystem.LINUX:
@@ -82,7 +82,7 @@ repositories {
 }
 
 dependencies {
-	minecraft "::${project.bta_version}"
+	minecraft "::${project.minecraft_version}"
 	mappings loom.layered() {}
 
 	modRuntimeOnly "objects:client:43db9b498cb67058d2e12d394e6507722e71bb45" // https://piston-data.mojang.com/v1/objects/43db9b498cb67058d2e12d394e6507722e71bb45/client.jar

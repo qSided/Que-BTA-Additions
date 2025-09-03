@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "qbtaa",
+  "version": "1.2.1-7.3_04",
+
+  "name": "Que's BTA Additions",
+  "description": "A mod for stained glass and possibly other things in BTA. Huge thanks to camoweed_ for the beautiful glass textures.",
+  "authors": [
+    "qSided",
+		"camoweed_"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+	"icon": "icon.png",
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+		"main": [
+			"qsided.qbtaa.QBTAAMod"
+		],
+		"beforeGameStart": [
+			"qsided.qbtaa.QBTAAMod"
+		],
+		"afterGameStart": [
+			"qsided.qbtaa.QBTAAMod"
+		],
+		"recipesReady": [
+			"qsided.qbtaa.QBTAARecipes"
+		],
+		"initModels": [
+			"qsided.qbtaa.QBTAAModels"
+		],
+		"onInitialize": [
+			"qsided.qbtaa.QBTAAMod"
+		]
+	},
+  "mixins": [
+		"qbtaa.mixins.json"
+  ],
+
+  "depends": {
+		"minecraft": "*",
+    "fabricloader": ">=0.15.5"
+  },
+  "suggests": {
+  }
+}
